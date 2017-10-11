@@ -1,24 +1,38 @@
-# README
+# rails-react-app-skeleton
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Rails
+- [ ] rails new app_name --database=postgresql --skip-turbolinks
+- [ ] update Gemfile if necessary
+    - [ ] pry-rails
+    - [ ] better_errors
+    - [ ] binding_of_caller
+    - [ ] jquery-rails
+        - [ ] application.js<br>
+                - //= require jquery<br>
+                - //= require jquery_ujs
+- [ ] bundle install
+- [ ] npm init --yes
+- [ ] npm install --save
+    - [ ] webpack
+    - [ ] react
+    - [ ] react-dom
+    - [ ] react-router-dom (if needed)
+    - [ ] redux
+    - [ ] redux-thunk
+    - [ ] react-redux
+    - [ ] babel-core
+    - [ ] babel-loader
+    - [ ] babel-preset-react
+    - [ ] babel-preset-es2015
+    - [ ] lodash (if needed)
+- [ ] webpack.config.js
+- [ ] Create .gitignore before committing anything (node_modules & bundle files)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## React
+- [ ] frontend/
+    - [ ] actions/
+    - [ ] components/
+    - [ ] reducers/
+    - [ ] store/
+    - [ ] util/
+    - [ ] app_name.jsx (or entry.jsx)
